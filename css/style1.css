@@ -16,3 +16,25 @@ body {
     background-color: brown;
     color: white;
 }
+
+section{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#register-div, #login-div{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 
+section div > div{
+    margin: 10px;
+} */
